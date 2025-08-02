@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import styles from "./ASidebar.module.css";
+import styles from "./ASideBar.module.css";
 
 const ASidebar = ({ darkMode, setDarkMode }) => {
   const navigate = useNavigate();
